@@ -1,0 +1,30 @@
+.nav {
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav__logo {
+  height: 90px;
+}
+
+.nav__containerRight {
+  display: flex;
+  align-items: center;
+}
+.nav__icons {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin: 0.51rem;
+  color: #636363;
+  cursor: pointer;
+
+}
