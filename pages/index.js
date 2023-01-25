@@ -4,7 +4,7 @@ import Image from "next/image";
 import Nav from "../Components/Nav";
 import styles from "../styles/Home.module.css";
 import Player from "../Components/Player";
-import Tree from "../Components/Tree";
+
 import {
   Environment,
   Instance,
@@ -24,7 +24,7 @@ export default function Home() {
         <Player />
         <Environment preset="city" />
         <OrbitControls />
-        {/* <Tree scale={[0.1,0.1,0.1]}/> */}
+       
       </Canvas>
     </div>
   );
